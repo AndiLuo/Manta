@@ -103,9 +103,10 @@ function validateRecipient(recipient) {
     // Are required fields empty?
     if (
       recipient.new.fullname === undefined ||
-      recipient.new.fullname === '' ||
-      recipient.new.email === undefined ||
-      recipient.new.email === ''
+      recipient.new.fullname === '' 
+      // ||
+      // recipient.new.email === undefined ||
+      // recipient.new.email === ''
     ) {
       openDialog({
         type: 'warning',
