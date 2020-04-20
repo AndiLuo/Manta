@@ -15,6 +15,7 @@ const InvoiceHeader = styled.div`
   flex: none;
   display: flex;
   justify-content: space-between;
+  font-size: 20px
 `;
 
 const LeftColumn = styled.div`
@@ -22,13 +23,24 @@ const LeftColumn = styled.div`
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+  font-size: 20px
 `;
 
+
 const Company = styled.div`
+  font-size: 20px
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 1.66667em;
 `;
 
-const Recipient = styled.div``;
+const Recipient = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  font-size: 20px
+`;
 
 const RightColumn = styled.div`
   flex: 1;
@@ -49,7 +61,7 @@ const RightColumn = styled.div`
 
 const Heading = styled.h1`
   margin: 0 0 10px 0;
-  font-size: 2em;
+  font-size: 40px;
   font-weight: 400;
   color: #cbc189;
   text-transform: uppercase;
