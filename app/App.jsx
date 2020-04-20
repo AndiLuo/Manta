@@ -60,9 +60,13 @@ class App extends PureComponent {
     ipc.on('menu-form-toggle-note', () => {
       dispatch(FormActions.toggleField('note'));
     });
+    ipc.on('menu-form-toggle-carModel', () => {
+      dispatch(FormActions.toggleField('carModel'));
+    });
     ipc.on('menu-form-toggle-settings', () => {
       dispatch(FormActions.toggleFormSettings());
     });
+
     // Save configs to invoice
     ipc.on('save-configs-to-invoice', (event, invoiceID, configs) => {
       dispatch(InvoicesActions.saveInvoiceConfigs(invoiceID, configs));

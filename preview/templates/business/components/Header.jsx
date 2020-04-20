@@ -84,6 +84,10 @@ function Header({ t, invoice, profile, configs }) {
             <p>{recipient.fullname}</p>
             <p>{recipient.email}</p>
             <p>{recipient.phone}</p>
+            <p>Car Details: {recipient.make} {recipient.model} {recipient.unit} </p>
+            <p>VIN: {recipient.vin}</p>
+            <p>Mileage: {recipient.mileage}</p>
+  
           </Recipient>
         )}
       </LeftColumn>
