@@ -58,7 +58,7 @@ export function RecipientForm({ t, formData, updateRecipientForm }) {
     <Part>
     <Row>
         <Field>
-          <label className="itemLabel">{t('common:fields:make')} *</label>
+          <label className="itemLabel">{t('common:make')} *</label>
           <input
             name="make"
             type="text"
@@ -67,7 +67,7 @@ export function RecipientForm({ t, formData, updateRecipientForm }) {
           />
         </Field>
         <Field>
-          <label className="itemLabel">{t('common:fields:model')}</label>
+          <label className="itemLabel">{t('common:model')}</label>
           <input
             name="model"
             type="text"
@@ -78,7 +78,7 @@ export function RecipientForm({ t, formData, updateRecipientForm }) {
       </Row>
       <Row>
         <Field>
-          <label className="itemLabel">{t('common:fields:unit')} *</label>
+          <label className="itemLabel">{t('common:unit')} *</label>
           <input
             name="unit"
             type="text"
@@ -87,7 +87,7 @@ export function RecipientForm({ t, formData, updateRecipientForm }) {
           />
         </Field>
         <Field>
-          <label className="itemLabel">{t('common:fields:vin')}</label>
+          <label className="itemLabel">{t('common:vin')}</label>
           <input
             name="vin"
             type="text"
@@ -98,7 +98,7 @@ export function RecipientForm({ t, formData, updateRecipientForm }) {
       </Row>
       <Row>
         <Field>
-          <label className="itemLabel">{t('common:fields:mileage')} *</label>
+          <label className="itemLabel">{t('common:mileage')} *</label>
           <input
             name="mileage"
             type="text"
